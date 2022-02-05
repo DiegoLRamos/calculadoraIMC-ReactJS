@@ -1,70 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CALCULADORA IMC
 
-## Available Scripts
+Projeto desenvolvido para a prática de ReactJS. 
+Com está calculadora é possivel verificar o seu IMC(índice de massa corporal).
 
-In the project directory, you can run:
 
-### `npm start`
+## Stack utilizada
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1 React
+* Hooks
+  * useState  
+  * useEffect  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2 Styled-components
+* ThemeProvider
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Demonstração
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Demonstração do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src='./src/assets/calculateIMC.gif' alt='Demonstração da calculadora' />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para rodar este e diversos outros projetos direto no seu computador, 
+é preciso ter o nodejs instalado.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para instalá-lo, [clique aqui](https://nodejs.org/en/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Após a instalação:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Abra o prompt de comando ou terminal do vscode e cole o comando:
 
-## Learn More
+```bash
+git clone https://github.com/DiegoLRamos/calculadoraIMC-ReactJS.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+Será feito o clone do projeto para o seu computador, após a finalização via prompt de comando ou terminal, acesse a pasta do projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd calculadoraIMC
+```
 
-### Code Splitting
+Agora, digite o comando: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install / yarn install
+```
 
-### Analyzing the Bundle Size
+Aguarde a instalação das dependências e então, digite o comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start / yarn start
+```
 
-### Making a Progressive Web App
+Aguarde a execução e uma nova aba no seu navegador será aberta com o projeto executando. Caso a aba não se abra, acesse:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+http://localhost:3000 
+```
