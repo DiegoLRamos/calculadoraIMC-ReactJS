@@ -27,9 +27,9 @@ Demonstração do projeto
 ## Instalação
 
 Para rodar este e diversos outros projetos direto no seu computador, 
-é preciso ter o nodejs instalado.
+é preciso ter o Git e Nodejs instalado.
 
-Para instalá-lo, [clique aqui](https://nodejs.org/en/).
+Para instalá-los: [git](https://git-scm.com/) e [nodejs](https://nodejs.org/en/). 
 
 Após a instalação:
 
